@@ -32,7 +32,7 @@ export default function Header(){
         <div className="headNav">
           <div className="navList">
             <span>
-              <a href="https://rubiks.coderable.studio" target="_blank" rel="noreferrer">Rubiks🎮</a>
+              <a href="https://redirect.coderable.studio/rubiks" target="_blank" rel="noreferrer">Rubiks🎮</a>
             
             </span>
            
@@ -53,7 +53,9 @@ export default function Header(){
             onClose={handleClose}
           >
             <MenuItem><Link to="/">Home</Link></MenuItem>
-            
+            <MenuItem>
+              <a href="https://redirect.coderable.studio/rubiks">Github</a>
+            </MenuItem>
             <MenuItem>
               <a href="https://github.com/the-coderable">Github</a>
             </MenuItem>
